@@ -48,3 +48,5 @@ async def upload_video(file: UploadFile = File(...)):
 @app.get("/result")
 def get_result():
     return FileResponse("outputs/best_frame.jpg")
+
+
